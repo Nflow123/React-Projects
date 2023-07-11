@@ -1,0 +1,32 @@
+#reviewsSection {
+  width: 100%;
+  padding: var(--white-space-tb) 0;
+  background-color: var(--dark-gray-color);
+}
+
+#reviewsSection .container:nth-child(2) .box {
+  height: 190px;
+  background-color: var(--gray-color);
+  box-shadow: 5px 5px 11px 0px #0000001c;
+  position: relative;
+  width: var(--box-width);
+  padding: 17px;
+}
+
+#reviewsSection .container:nth-child(2) .box .review {
+  font-style: italic;
+  color: var(--black-color);
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#reviewsSection .container:nth-child(2) .box .quote-sign2 {
+  position: absolute;
+  right: 17px;
+  bottom: 17px;
+}
+@media (max-width: 960px) {
+  #reviewsSection .container:nth-child(2) .box {
+    height: 220px;
+  }
+}

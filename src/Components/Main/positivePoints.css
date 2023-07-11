@@ -1,0 +1,26 @@
+.positive-points-section .container.box-wrapper .box {
+  height: 146px;
+  background-color: var(--dark-gray-color);
+  padding: 17px;
+  cursor: pointer;
+}
+.container.box-wrapper .box .title-section {
+  display: flex;
+  align-items: center;
+  --primary-color: #3a70ec;
+}
+.container.box-wrapper .box .title-section .title {
+  margin-left: 17px;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+.container.box-wrapper .box .desc {
+  margin-top: 17px;
+  color: var(--dark-blue-color);
+}
+
+@media (max-width: 810px) {
+  .positive-points-section .container.box-wrapper .box {
+    height: 165px;
+  }
+}

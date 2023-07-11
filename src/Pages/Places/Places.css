@@ -1,0 +1,9 @@
+main.main {
+  background-color: transparent !important;
+}
+.search-box {
+  margin-top: var(--hf-height);
+}
+.search-box .wrapper.check .input-parent:nth-child(1) label {
+  color: rgb(235, 52, 52) !important;
+}

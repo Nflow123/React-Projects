@@ -1,0 +1,17 @@
+/* Main */
+
+main.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--white-color);
+  padding-top: var(--white-space-tb);
+  padding-bottom: var(--white-space-tb);
+}
+
+main.main .container.box-wrapper .box {
+  transition: transform var(--main-transition) ease-in-out;
+}
+
+main.main .container.box-wrapper .box:hover {
+  transform: translateY(-20px);
+}
